@@ -20,17 +20,17 @@ app.engine('hbs', hbs.engine({ defaultLayout: 'main.hbs' }))
 app.set('view engine', 'hbs')
 
 
-
-
 let playerlist = [
-    {id:0,name:"admin",lifes:3,points:0}
+    {id:0,name:"admin",lifes:3,points:0},
+    {id:1,name:"Tadeusz",lifes:3,points:0},
+    {id:2,name:"Sznuk",lifes:3,points:0},
 ]
+const adminpassword="123"
 
 app.get("/", (req, res) => {
     res.render("login.hbs")
 })
 app.post("/login", (req, res) => {
-    console.log(req.body)
     let form = formidable({})
     form.keepExtentions = true
     form.multiples=true
@@ -40,17 +40,30 @@ app.post("/login", (req, res) => {
             if (err) console.log(err)
         })
         playerlist.push({id:playerlist.length,name:fields.name[0],lifes:3,points:0})
-        res.render("button.hbs",{name:fields.name[0]})
+        res.render("button.hbs",{id:playerlist.length})
     })
 })
 app.post("/buttonClicked",(req,res)=>{
-    console.log(req.body.name)
-    res.render("button.hbs",{name:req.body.name})
+    const id = Number(req.body.id) -1
+    console.log(playerlist[id])
 })
 
 app.get("/playerList",(req,res)=>{
     res.json(playerlist)
 })
+app.get("/admin",(req,res)=>{
+    res.render("roundEnter.hbs")
+})
+app.get("/adminMenu",(req,res)=>{
+    if (req.query.password==adminpassword){
+        res.render("adminMenu.hbs",{playerlist:playerlist})
+    }
+})
+app.post("/takeLife",(req,res)=>{
+    playerlist[req.body.id].lifes-=1
+    res.render("adminMenu.hbs",{playerlist:playerlist})
+})
+
 app.use(express.static('static'))
 app.listen(port, () => {
     console.log(`Server works on port ${port}`)

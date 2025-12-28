@@ -1,0 +1,21 @@
+<table>
+    <thead>
+       <td>NAME</td>
+       <td>LIFES</td>
+       <td>TAKE LIFE</td>
+    </thead>
+{{#each playerlist}}
+    <tr>
+        <td>{{name}}</td>
+        <td>{{lifes}}</td>
+        <td>
+            <form action="/takeLife" method="post">
+                <input type="hidden" name="id" value="{{id}}">
+                <button>TAKE LIFE</button>
+            </form>
+        </td>
+    </tr>
+{{/each}}
+</table>
+<script>
+</script>

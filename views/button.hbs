@@ -1,4 +1,12 @@
-<form action="/buttonClicked" method="post">
-    <input type="hidden" name="name" value="{{name}}">
-    <button>KLIK</button>
-</form>
+<button onclick="clickButton()">KLIK</button>
+<script>
+    async function clickButton(){
+        await fetch(`http://83.27.64.116:3000/buttonClicked`,{
+            method:"POST",
+            body:JSON.stringify({id:"{{id}}"}),
+            headers:{
+                "Content-Type": "application/json"
+            }
+        })
+    }
+</script>
