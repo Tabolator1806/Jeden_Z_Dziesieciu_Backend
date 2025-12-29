@@ -17,5 +17,11 @@
     </tr>
 {{/each}}
 </table>
+<button onclick="unclickButton()">LOBOTOMY</button>
 <script>
+async function unclickButton(){
+        await fetch(`http://83.27.64.116:3000/buttonUnClicked`,{
+            method:"POST"
+        })
+    }
 </script>

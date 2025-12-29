@@ -21,9 +21,6 @@ app.set('view engine', 'hbs')
 
 
 let playerlist = [
-    {id:0,name:"admin",lifes:3,points:0},
-    {id:1,name:"Tadeusz",lifes:3,points:0},
-    {id:2,name:"Sznuk",lifes:3,points:0},
 ]
 const adminpassword="123"
 
@@ -39,13 +36,23 @@ app.post("/login", (req, res) => {
         fs.rename(files.image[0].filepath,path.join(uploadPath,`${fields.name[0]}.png`),(err)=>{
             if (err) console.log(err)
         })
-        playerlist.push({id:playerlist.length,name:fields.name[0],lifes:3,points:0})
-        res.render("button.hbs",{id:playerlist.length})
+        playerlist.push({id:playerlist.length,name:fields.name[0],lifes:3,points:0,button:false})
+        res.render("button.hbs",{id:playerlist.length-1})
     })
 })
 app.post("/buttonClicked",(req,res)=>{
-    const id = Number(req.body.id) -1
-    console.log(playerlist[id])
+    const id = Number(req.body.id)
+    if (!playerlist[id].button){
+        playerlist[id].button=true
+        console.log(playerlist[id].name)
+    }
+})
+
+app.post("/buttonUnclicked",(req,res)=>{
+    console.log("-----------------------------LOBOTOMIAAAAAAAAAAA----------------------------------------------")
+    playerlist.forEach(player=>{
+        player.button=false
+    })
 })
 
 app.get("/playerList",(req,res)=>{
