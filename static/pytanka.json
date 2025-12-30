@@ -74,7 +74,7 @@
         },
         {
             "nr":12,
-            "kategoria":"Religia",
+            "kategoria":"Biblia",
             "tresc":"Podbój, wojna i głód. Jaka jest nazwa ostatniego jeźdźcy apokalipsy",
             "poprawna odp":"Śmierć"
         },
@@ -86,11 +86,493 @@
             "poprawna odp":"LABUBU"
         },
         {
-            "nr":13,
-            "kategoria":"internet idk",
-            "tresc":"Jak sie nazywa pluszak który zyskał popularność w 2025 który ma zęby i dużą głowę",
+            "nr":14,
+            "kategoria":"usa",
+            "tresc":"Kim był amerykański typ od debat, któy został postrzelony w szyje",
             "margines bledu":"idk",
-            "poprawna odp":"LABUBU"
+            "poprawna odp":"WE ARE CHARLIE KIRK"
+        },
+        {
+            "nr":15,
+            "kategoria":"inteernet",
+            "tresc":"Rodzaj czekolady z pistacjami i kataifi",
+            "poprawna odp":"Czekolada dubajska"
+        },
+        {
+            "nr":16,
+            "kategoria":"inteernet",
+            "tresc":"Brytyjska aktorka znana z grania Eleven w Stranger Things",
+            "poprawna odp":"Millie Bobby Brown"
+        },
+        {
+            "nr":17,
+            "kategoria":"Biologia",
+            "tresc":"Ile jest kości w nadgarstku",
+            "poprawna odp":"8"
+        },
+        {
+            "nr":18,
+            "kategoria":"terminologia",
+            "tresc":"Jak się nazywa człowiek ubierający się w futrzaste kostiumy humanoidalnych zwierząt",
+            "poprawna odp":"Furry"
+        },
+        {
+            "nr":19,
+            "kategoria":"Prawo",
+            "tresc":"Od którego roku życia obywatel Polski ma obowiązek posiadać dowód osobisty",
+            "poprawna odp":"18"
+        },
+        {
+            "nr":20,
+            "kategoria":"Biologia",
+            "tresc":"Jak się nazywa mięsień Biceps Brachii po polsku",
+            "margines bledu":"wystarczy miesien dwugłowy",
+            "poprawna odp":"Mięsień dwugłowy ramienia"
+        },
+        {
+            "nr":21,
+            "kategoria":"horny",
+            "tresc":"Ile występuje scen seksu w 5 odcinku Kanadyjskiego serialu pt. Heated Rivalry",
+            "poprawna odp":"0"
+        },
+        {
+            "nr":22,
+            "kategoria":"k-pop",
+            "tresc":"Ilu członków ma aktualnie koreański zespół NCT sumując wszystkie podzespoły",
+            "margines bledu":"2",
+            "poprawna odp":"25"
+        },
+        {
+            "nr":23,
+            "kategoria":"k-pop",
+            "tresc":"Który członek koreańskiego zespołu BigBang zagrał w serialu Netflixa pt. Squid game",
+            "poprawna odp":"T.O.P"
+        },
+        {
+            "nr":24,
+            "kategoria":"k-pop",
+            "tresc":"Co oznacza litera B w skrócie nazwy zespołu BTS",
+            "poprawna odp":"Bangtan"
+        },
+        {
+            "nr":25,
+            "kategoria":"k-pop",
+            "tresc":"Jaka wytwórnia odpowiada za management zespołów takich jak BTS czy TXT",
+            "poprawna odp":"Hybe"
+        },
+        {
+            "nr":26,
+            "kategoria":"k-pop",
+            "tresc":"Jak się nazywa najmłodszy członek BTS",
+            "poprawna odp":"Jungkook"
+        },
+        {
+            "nr":27,
+            "kategoria":"k-pop",
+            "tresc":"Jaki był pierwszy kpopowy zespół który otrzymał nominację do grammy",
+            "poprawna odp":"BTS"
+        },
+        {
+            "nr":28,
+            "kategoria":"k-pop",
+            "tresc":"Który koreański zespół nagrał swoją wersję utworu 'Takedown' do napisów końcowych filmu Kpopowe łowczynie demonów",
+            "poprawna odp":"TWICE"
+        },
+        {
+            "nr":29,
+            "kategoria":"k-pop",
+            "tresc":"Jaka członkini zespołu BLACKPINK nagrała z Bruno Marsem utwór o tytule APT",
+            "poprawna odp":"Rose"
+        },
+        {
+            "nr":30,
+            "kategoria":"k-pop nie do konca",
+            "tresc":"Jaki utwór zespołu Katseye zyskał globalną sławę przes swój unikalny tekst oraz surowe brzmeinie",
+            "poprawna odp":"Gnarly"
+        },
+        {
+            "nr":31,
+            "kategoria":"k-pop",
+            "tresc":"Który koreański kobiecy zespół pojawia się w 6 studyjnym albumie lady gagi",
+            "poprawna odp":"BLACKPINK"
+        },
+        {
+            "nr":32,
+            "kategoria":"muzyka",
+            "tresc":"Jaki był powód śmierci wokalisty zespołu Nirvana",
+            "poprawna odp":"Samobójstwo"
+        },
+        {
+            "nr":33,
+            "kategoria":"muzyka",
+            "tresc":"Jakiego zespołu głównym wokalistą był świeżo martwy Ozzy Osbourne",
+            "poprawna odp":"Black Sabbath"
+        },
+        {
+            "nr":34,
+            "kategoria":"muzyka",
+            "tresc":"Jaką piosenkę zespołu ABBA zasamplowała madonna w swoim hicie 'Hung Up'",
+            "poprawna odp":"Gimme Gimme"
+        },
+        {
+            "nr":35,
+            "kategoria":"fandomy",
+            "tresc":"Jaka relacja fikcyjna zdominowała ranking top shipów na ao3 w roku 2025",
+            "margines bledu":"Przejdzie tez caitvi albo to cos z 9-1-1",
+            "poprawna odp":"Jayce/Viktor"
+        },
+        {
+            "nr":36,
+            "kategoria":"fandomy",
+            "tresc":"U kogo jest pięć koszmarnych nocy w słynnej serii gier o tylue ze skrótem FNAF",
+            "margines bledu":"Fryderyk tez przejdzie",
+            "poprawna odp":"u Freddiego"
+        },
+        {
+            "nr":37,
+            "kategoria":"życiowe",
+            "tresc":"Jakie jest ulubione piwo Jakuba Boratyńskiego",
+            "poprawna odp":"TATRAAAAA"
+        },
+        {
+            "nr":38,
+            "kategoria":"życiowe",
+            "tresc":"Jak się nazywa piercing polegający na przekluciu górnego płatka ucha w dwóch miejscach i polączeniu ich jednym kolczykiem",
+            "poprawna odp":"Industrial"
+        },
+        {
+            "nr":39,
+            "kategoria":"życiowe",
+            "tresc":"Jakiego polityka zdjęcie z gór przysporzyło mu przydomek Cycolina",
+            "poprawna odp":"Memcwel (Mentzen)"
+        },
+        {
+            "nr":40,
+            "kategoria":"matematyka",
+            "tresc":"Jaka jest piąta cyfra po przecinku w pi",
+            "poprawna odp":"9"
+        },
+        {
+            "nr":41,
+            "kategoria":"seriale",
+            "tresc":"Która postać w serialu Euphoria była grana przez transpłciową aktorkę",
+            "poprawna odp":"Jules"
+        },
+        {
+            "nr":42,
+            "kategoria":"seriale",
+            "tresc":"Która postać w serialu Euphoria była grana przez transpłciową aktorkę",
+            "poprawna odp":"Jules"
+        },
+        {
+            "nr":43,
+            "kategoria":"kapitalizm",
+            "tresc":"Ile kosztuje w euro subrskrybcja adobe photoshop dla indywidualnego klienta na miesiąc",
+            "margines bledu":"5 w obie strony",
+            "poprawna odp":"27"
+        },
+        {
+            "nr":44,
+            "kategoria":"idk jezyki",
+            "tresc":"Piąta litera alfabetu greckiego",
+            "poprawna odp":"epsilon"
+        },
+        {
+            "nr":45,
+            "kategoria":"klasyki literatury",
+            "tresc":"Jaki jest główny bohater Iliady",
+            "poprawna odp":"Achilles"
+        },
+        {
+            "nr":46,
+            "kategoria":"klasyki literatury",
+            "tresc":"Kto napisał Wichrowe Wzgórza",
+            "poprawna odp":"Emily Bronte"
+        },
+        {
+            "nr":47,
+            "kategoria":"klasyki literatury",
+            "tresc":"Jaka jest popularna książka o wielorybie, gdzie głównym bohaterem jest Ishmael",
+            "poprawna odp":"Moby Dick"
+        },
+        {
+            "nr":48,
+            "kategoria":"klasyki literatury",
+            "tresc":"Najpopularniejszy utwór autorstwa Oscara Wilde",
+            "poprawna odp":"Portret Doriana Graya"
+        },
+        {
+            "nr":49,
+            "kategoria":"klasyki literatury",
+            "tresc":"Kto napisał manifest Komunistyczny (wystaczy jeden z autorów)",
+            "poprawna odp":"Friedrich Engels i Karl Marx"
+        },
+        {
+            "nr":50,
+            "kategoria":"idk japonia",
+            "tresc":"Popularne anime o piratach znane z posiadania ponad 1000 odcinków",
+            "poprawna odp":"ONE PIECE IS REALL"
+        },
+        {
+            "nr":51,
+            "kategoria":"what the helly",
+            "tresc":"Jaki jest łaciński tytuł mniejszego kluczu Salomona",
+            "margines bledu":"jakakolwiek literowka ",
+            "poprawna odp":"Lemegeton"
+        },
+        {
+            "nr":52,
+            "kategoria":"jedzenie",
+            "tresc":"Skąd się bierze nazwa pierogów ruskich",
+            "poprawna odp":"od rusi (czerwonej)"
+        },
+        {
+            "nr":53,
+            "kategoria":"jedzenie",
+            "tresc":"Jak się nazywa potrawa wigilijna robiona z nasion pszenicy, maku, miodu i bakalii",
+            "poprawna odp":"kutia"
+        },
+        {
+            "nr":54,
+            "kategoria":"polska",
+            "tresc":"Ile odcinków ma M jak miłość", 
+            "margines bledu":"100 ",
+            "poprawna odp":"1899"
+        },
+        {
+            "nr":55,
+            "kategoria":"polska",
+            "tresc":"Którego dnia 2010 roku wydarzyła się katastrofa w smoleńsku ", 
+            "margines bledu":"miesiąc starczy ",
+            "poprawna odp":"10 kwietnia"
+        },
+        {
+            "nr":56,
+            "kategoria":"biologia",
+            "tresc":"Jakie zwierze ma odchody w kształcie sześcianu? ", 
+            "poprawna odp":"wombat"
+        },
+        {
+            "nr":57,
+            "kategoria":"biologia",
+            "tresc":"Jaki ssak potrafi latać? ", 
+            "poprawna odp":"nietoperz"
+        },
+        {
+            "nr":58,
+            "kategoria":"biologia",
+            "tresc":"Czego badaniem zajmuje sie mykologia ", 
+            "poprawna odp":"grzybów"
+        },
+        {
+            "nr":59,
+            "kategoria":"polska",
+            "tresc":"Kto oryginalnie śpiewał 'W wannie już pływa świąteczny karp' ", 
+            "poprawna odp":"Edytka Gurniak"
+        },
+        {
+            "nr":60,
+            "kategoria":"polska",
+            "tresc":"W jakim mieście znajduje się największy średniowieczny rynek", 
+            "poprawna odp":"Kraków "
+        },
+        {
+            "nr":61,
+            "kategoria":"religia",
+            "tresc":"Który król odłączył kościół w Anglii od Papieża", 
+            "poprawna odp":"Henryk 8 "
+        },
+        {
+            "nr":62,
+            "kategoria":"musical/historia idk",
+            "tresc":"Ile postaci z musicalu Hamilton było prezydentami Ameryki?", 
+            "poprawna odp":"3 ( Jefferson , Madison i Washington)"
+        },
+        {
+            "nr":63,
+            "kategoria":"musical/historia idk",
+            "tresc":"Która żona henryka 8 zmarła po urodzeniu mu męskiego potomka", 
+            "poprawna odp":"Jane Seymour"
+        },
+        {
+            "nr":64,
+            "kategoria":"musical/historia idk",
+            "tresc":"Która żona henryka 8 zmarła po urodzeniu mu męskiego potomka", 
+            "poprawna odp":"Jane Seymour"
+        },
+        {
+            "nr":65,
+            "kategoria":"mitologia",
+            "tresc":"Czego bogiem w mitologii Greckiej był Boreasz", 
+            "poprawna odp":"Wiatru (północnego)"
+        },
+        {
+            "nr":66,
+            "kategoria":"Informatyka",
+            "tresc":"Jak nazywa się system operacyjny, którego autorem jest Linus Torvalds", 
+            "poprawna odp":"Linux"
+        },
+        {
+            "nr":67,
+            "kategoria":"Historia",
+            "tresc":"Jak na imię miała ostatnia królowa Egiptu", 
+            "poprawna odp":"Kleopatra"
+        },
+        {
+            "nr":68,
+            "kategoria":"mitologia",
+            "tresc":"Czego bogiem w mitologii Greckiej był Boreasz", 
+            "poprawna odp":"Wiatru (północnego)"
+        },
+        {
+            "nr":69,
+            "kategoria":"hihi 69",
+            "tresc":"Jak sie nazywa Indyjski traktat na temat seksualności", 
+            "poprawna odp":"Kamastura (Kama sutra)"
+        },
+        {
+            "nr":70,
+            "kategoria":"Historia",
+            "tresc":"W którym roku rozpoczęła się I Wojna Światowa", 
+            "poprawna odp":"1916r"
+        },
+        {
+            "nr":71,
+            "kategoria":"Lingwistyka",
+            "tresc":"Jaka jest poprawna , nie potoczna nazwa mieszkańca Indii", 
+            "poprawna odp":"Indus"
+        },
+        {
+            "nr":72,
+            "kategoria":"What the helly",
+            "tresc":"Jaka postać z gry Genshin Impact dzieli imie z Polską marką piwa", 
+            "poprawna odp":"Varka/Warka"
+        },
+        {
+            "nr":73,
+            "kategoria":"matematyka",
+            "tresc":"Ile wynosi liczba eulera w zaokrągleniu do jednej cyfry po przecinku", 
+            "poprawna odp":"2,7"
+        },
+        {
+            "nr":74,
+            "kategoria":"matematyka",
+            "tresc":"Jaką literą Grecką oznacza się złotą liczbę?", 
+            "poprawna odp":"φ (fi)"
+        },
+        {
+            "nr":75,
+            "kategoria":"matematyka",
+            "tresc":"18 litera alfabetu greckiego", 
+            "poprawna odp":"SIGMA"
+        },
+        {
+            "nr":76,
+            "kategoria":"klasyki literatury",
+            "tresc":"Kontrowersyjna książka Vladimira Nabokova o pedofilii",
+            "poprawna odp":"Lolita"
+        },
+        {
+            "nr":77,
+            "kategoria":"k-wave",
+            "tresc":"Koreańska nazwa na zachowywanie się w 'słodki' momentami dziecięcy sposób",
+            "poprawna odp":"Aegyo"
+        },
+        {
+            "nr":78,
+            "kategoria":"animu",
+            "tresc":"Japoński termin na przesadzoną mimikę spowodowaną przyjemnością w mandze i anime",
+            "poprawna odp":"Ahegao  "
+        },
+        {
+            "nr":79,
+            "kategoria":"chiny",
+            "tresc":"Chiński gatunek opowiadający o bohaterach sztuk walki w starożytnych chinach",
+            "poprawna odp":"Wuxia"
+        },
+        {
+            "nr":80,
+            "kategoria":"azja",
+            "tresc":"Kierunek filozoficzno-Religijny u podstaw kultury wschodniej azji",
+            "poprawna odp":"Konfucjanizm lub taoizm ig"
+        },
+        {
+            "nr":81,
+            "kategoria":"azja",
+            "tresc":"Drugi, poza Hong Kongiem specjalny region administracyjny Chin",
+            "poprawna odp":"Makau"
+        },
+        {
+            "nr":82,
+            "kategoria":"subkultury",
+            "tresc":"Czarne, skórzane, często wysokie i z metalowym czubem buty noszone przez punków,metalowców czy gotów",
+            "poprawna odp":"Glany"
+        },
+        {
+            "nr":83,
+            "kategoria":"subkultury",
+            "tresc":"Metalowe kolce służącze do dekoracji ubrań",
+            "poprawna odp":"Ćwieki"
+        },
+        {
+            "nr":84,
+            "kategoria":"popkultura",
+            "tresc":"Jaka jest czwarta nagroda poza Emmy Grammy i Oscarem aby osiągnąć status EGOT",
+            "poprawna odp":"Tony"
+        },
+        {
+            "nr":85,
+            "kategoria":"popkultura",
+            "tresc":"Jaki amerykański polityk miał domniemany romans z Harrym Stylesem",
+            "poprawna odp":"Obama"
+        },
+        {
+            "nr":86,
+            "kategoria":"literatura idk",
+            "tresc":"Jaka starożytnogrecka poetka pisała poezje miłosną do innych kobiet i przyczyniła się do utworzenia terminu 'lesbijka'",
+            "poprawna odp":"Safona"
+        },
+        {
+            "nr":87,
+            "kategoria":"przesądy",
+            "tresc":"Ile lat nieszczęścia po rozbiciu lustra",
+            "poprawna odp":"7"
+        },
+        {
+            "nr":88,
+            "kategoria":"przesądy",
+            "tresc":"W jakim miejscu nie podaje się ręki",
+            "poprawna odp":"W progu/ przez próg"
+        },
+        {
+            "nr":89,
+            "kategoria":"mitologia",
+            "tresc":"Łąki w krainie śmierci w mitologii greckiej, w których przebywa większosć zmarłych",
+            "poprawna odp":"Asfodel"
+        },
+        {
+            "nr":90,
+            "kategoria":"kinky",
+            "tresc":"Co oznacza litera D w skrócie BDSM",
+            "poprawna odp":"Dyscypline/Dominacje"
+        },
+        {
+            "nr":91,
+            "kategoria":"kinky",
+            "tresc":"Reżyser filmowy znany z bycia stupkarzem",
+            "poprawna odp":"Quentin Tarantino ale Dan Schneider też przejdzie"
+        },
+        {
+            "nr":92,
+            "kategoria":"Historia",
+            "tresc":"W którym roku zakończyła się II Wojna Światowa",
+            "poprawna odp":"1945 rok"
+        },
+        {
+            "nr":93,
+            "kategoria":"polska",
+            "tresc":"Najwyższy order wojskowy w Polsce",
+            "poprawna odp":"Virtutti Militari"
         }
-    }
+    ]
 }
