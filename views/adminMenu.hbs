@@ -1,27 +1,109 @@
-<table>
-    <thead>
-       <td>NAME</td>
-       <td>LIFES</td>
-       <td>TAKE LIFE</td>
-    </thead>
-{{#each playerlist}}
-    <tr>
-        <td>{{name}}</td>
-        <td>{{lifes}}</td>
-        <td>
-            <form action="/takeLife" method="post">
-                <input type="hidden" name="id" value="{{id}}">
-                <button>TAKE LIFE</button>
-            </form>
-        </td>
-    </tr>
-{{/each}}
-</table>
+<div id="main">
+    <div id="lewy">
+        <table>
+            <thead>
+            <td>NAME</td>
+            <td>LIVES</td>
+            <td>TAKE LIFE</td>
+            <td>KICK PLAYER</td>
+            </thead>
+        {{#each playerlist}}
+            <tr>
+                <td>{{name}}</td>
+                <td>{{lives}}</td>
+                <td>
+                    <button onclick="takeLife({{id}})">TAKE LIFE</button>
+                </td>
+                <td>
+                    <button onclick="kickPlayer({{id}})">KICK PLAYER</button>
+                </td>
+            </tr>
+        {{/each}}
+        </table>
+    </div>
+    <div id="prawy">
+        <table>
+            <thead>
+                <td>KATEGORIA</td>
+                <td>TREŚĆ</td>
+                <td>MARGINES</td>
+                <td>ODPOWIEDŹ</td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="kategoria"></td>
+                    <td id="tresc"></td>
+                    <td id="margines"></td>
+                    <td id="odp"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<button onclick="setQuestion()">LOSUJ PYTANIE</button>
 <button onclick="unclickButton()">LOBOTOMY</button>
 <script>
+let blacklist = []
 async function unclickButton(){
-        await fetch(`http://83.27.64.116:3000/buttonUnClicked`,{
-            method:"POST"
-        })
+    await fetch(`http://83.27.64.116:3000/buttonUnClicked`,{
+        method:"POST"
+    })
+}
+async function getQuestion(){
+    let response = await fetch(`http://83.27.64.116:3000/getQuestions`)
+    let pytania = JSON.parse(await response.text()).pytania
+    let wylosowane = pytania[Math.floor(Math.random() * pytania.length)]
+    return wylosowane
+}
+async function setQuestion(){
+    let wylosowane = await getQuestion()
+    while (blacklist.includes(wylosowane.nr)){
+        wylosowane = await getQuestion()
     }
+    kategoria.innerText = wylosowane.kategoria
+    tresc.innerText = wylosowane['tresc']
+    margines.innerText = wylosowane["margines bledu"] || "brak"
+    odp.innerText = wylosowane["poprawna odp"]
+    blacklist+=wylosowane.nr
+}
+async function takeLife(id){
+    await fetch(`http://83.27.64.116:3000/takeLife`,{
+        method:"POST",
+        body:JSON.stringify({id:id}),
+        headers:{
+                "Content-Type": "application/json"
+            }
+    })
+}
+async function kickPlayer(id){
+    await fetch(`http://83.27.64.116:3000/kickPlayer`,{
+        method:"POST",
+        body:JSON.stringify({id:id}),
+        headers:{
+                "Content-Type": "application/json"
+            }
+    })
+}
 </script>
+<style>
+    #main{
+        display:flex;
+    }
+    #lewy{
+        border-right: 10px solid black;
+        height: 50%;
+        padding: 15px;
+    }
+    #right{
+        height: 50%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+    td{
+        border:1px solid black;
+        padding:5px;
+    }
+</style>

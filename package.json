@@ -15,6 +15,7 @@
     "express": "^5.2.1",
     "express-handlebars": "^8.0.2",
     "formidable": "^3.5.4",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "qrcode": "^1.5.4"
   }
 }

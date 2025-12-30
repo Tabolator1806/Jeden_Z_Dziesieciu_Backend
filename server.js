@@ -4,6 +4,8 @@ import hbs from 'express-handlebars'
 import cors from 'cors'
 import formidable from 'formidable'
 import fs from 'fs'
+import qrcode from 'qrcode'
+import pytania from './static/pytanka.json' with { type: "json" };
 const __dirname = import.meta.dirname
 const uploadPath = path.join(__dirname,"static","upload")
 // const express = require('express')
@@ -11,14 +13,12 @@ const uploadPath = path.join(__dirname,"static","upload")
 // const hbs = require('express-handlebars')
 const app = express();
 const port = 3000
-
 app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.set('views', path.join(__dirname, 'views'))
 app.engine('hbs', hbs.engine({ defaultLayout: 'main.hbs' }))
 app.set('view engine', 'hbs')
-
 
 let playerlist = [
 ]
@@ -36,7 +36,7 @@ app.post("/login", (req, res) => {
         fs.rename(files.image[0].filepath,path.join(uploadPath,`${fields.name[0]}.png`),(err)=>{
             if (err) console.log(err)
         })
-        playerlist.push({id:playerlist.length,name:fields.name[0],lifes:3,points:0,button:false})
+        playerlist.push({id:playerlist.length,name:fields.name[0],lives:3,points:0,button:false})
         res.render("button.hbs",{id:playerlist.length-1})
     })
 })
@@ -54,7 +54,11 @@ app.post("/buttonUnclicked",(req,res)=>{
         player.button=false
     })
 })
-
+app.get("/generateQRCode",async (req,res)=>{
+    const url = "http://83.27.64.116:3000"
+    const qrCodeImage = await qrcode.toDataURL(url);
+    res.send(qrCodeImage);
+})
 app.get("/playerList",(req,res)=>{
     res.json(playerlist)
 })
@@ -63,14 +67,22 @@ app.get("/admin",(req,res)=>{
 })
 app.get("/adminMenu",(req,res)=>{
     if (req.query.password==adminpassword){
-        res.render("adminMenu.hbs",{playerlist:playerlist})
+        res.render("adminMenu.hbs",{playerlist:playerlist,pytania:pytania})
     }
 })
 app.post("/takeLife",(req,res)=>{
-    playerlist[req.body.id].lifes-=1
-    res.render("adminMenu.hbs",{playerlist:playerlist})
+    playerlist[req.body.id].lives-=1
 })
-
+app.post("/kickPlayer",(req,res)=>{
+    playerlist = playerlist.filter((player)=> player.id!=req.body.id)
+    console.log(playerlist)
+})
+app.get("/setSound",(req,res)=>{
+    res.send("")
+})
+app.get("/getQuestions",(req,res)=>{
+    res.json(pytania)
+})
 app.use(express.static('static'))
 app.listen(port, () => {
     console.log(`Server works on port ${port}`)

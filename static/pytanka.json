@@ -1,0 +1,96 @@
+{
+    "pytania":[
+        {
+            "nr":1,
+            "kategoria":"chuj wie",
+            "tresc":"Ile mam lat?",
+            "margines bledu":"1 rok",
+            "poprawna odp":"18 "
+        },
+        {
+            "nr":2,
+            "kategoria":"chemia",
+            "tresc":"Jaka jest dawka śmiertelna promili alkoholu we krwi dla osób spoza Polski i Rosji",
+            "margines bledu":"1 promil",
+            "poprawna odp":"5"
+        },
+        {
+            "nr":3,
+            "kategoria":"polityka",
+            "tresc":"Jak się nazywa prezydent Polski",
+            "poprawna odp":"Adison sigma Zandberg ale Nawrocki też przejdzie "
+        },
+         {
+            "nr":4,
+            "kategoria":"polityka",
+            "tresc":"Który polski polityk grał w filmie: 'O dwóch takich co ukradli księżyc' z roku 1962",
+            "margines bledu":"dowolny z braci",
+            "poprawna odp":"Kaczyński "
+        },
+         {
+            "nr":5,
+            "kategoria":"popkultura",
+            "tresc":"Która czarnoskóra raperka znana z implantów w tym roku została MAGA śmieciem",
+            "margines bledu":"idk",
+            "poprawna odp":"Nicki M*naj "
+        },
+        {
+            "nr":6,
+            "kategoria":"Botanika",
+            "tresc":"Jak nazywa się owoc dębu",
+            "poprawna odp":"żołądź"
+        },
+        
+        {
+            "nr":7,
+            "kategoria":"Zoologia",
+            "tresc":"Czy w Europie żyją szakale",
+            "poprawna odp":"tak"
+        },
+        
+        {
+            "nr":8,
+            "kategoria":"Kościoły",
+            "tresc":"Ile ramion ma żydowski świecznik zwany menorom",
+            "poprawna odp":"7"
+        },
+        {
+            "nr":9,
+            "kategoria":"Rolnictwo",
+            "tresc":"Uroczyste zakończenie żniw",
+            "poprawna odp":"Dożynki"
+        },
+        {
+            "nr":10,
+            "kategoria":"Geografia",
+            "tresc":"Częścią jakiego państwa jest wyspa Kreta",
+            "poprawna odp":"Grecja"
+        },
+        {
+            "nr":11,
+            "kategoria":"Chemia",
+            "tresc":"Jakiego pierwiastka chemicznego znakiem jest C",
+            "poprawna odp":"Węgiel"
+        },
+        {
+            "nr":12,
+            "kategoria":"Religia",
+            "tresc":"Podbój, wojna i głód. Jaka jest nazwa ostatniego jeźdźcy apokalipsy",
+            "poprawna odp":"Śmierć"
+        },
+        {
+            "nr":13,
+            "kategoria":"internet idk",
+            "tresc":"Jak sie nazywa pluszak który zyskał popularność w 2025 który ma zęby i dużą głowę",
+            "margines bledu":"idk",
+            "poprawna odp":"LABUBU"
+        },
+        {
+            "nr":13,
+            "kategoria":"internet idk",
+            "tresc":"Jak sie nazywa pluszak który zyskał popularność w 2025 który ma zęby i dużą głowę",
+            "margines bledu":"idk",
+            "poprawna odp":"LABUBU"
+        }
+    }
+}
