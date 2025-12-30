@@ -573,6 +573,312 @@
             "kategoria":"polska",
             "tresc":"Najwyższy order wojskowy w Polsce",
             "poprawna odp":"Virtutti Militari"
+        },
+        {
+            "nr":94,
+            "kategoria":"Biologia",
+            "tresc":"Kto był twórcą teorii ewolucji",
+            "poprawna odp":"Charles Darwin, Karol Darwin, Darwin"
+        },
+        {
+            "nr":95,
+            "kategoria":"japonia",
+            "tresc":"Japońska nazwa na duchy",
+            "poprawna odp":"Yokai"
+        },
+        {
+            "nr":96,
+            "kategoria":"Biologia",
+            "tresc":"Terpentyna jest pochodzenia roślinnego, czy zwierzęcego?",
+            "poprawna odp":"roślinnego"
+        },
+        {
+            "nr":97,
+            "kategoria":"idk",
+            "tresc":"Jaka jest oficjalna nazwa grupy etnicznej zwanej Cyganami",
+            "poprawna odp":"Romowie"
+        },
+        {
+            "nr":98,
+            "kategoria":"Muzyka",
+            "tresc":"Jak nazywa się najniższy głos męski",
+            "poprawna odp":"bas"
+        },
+        {
+            "nr":99,
+            "kategoria":"Mitologia",
+            "tresc":"Jakie ptaki zostały zaprzężone do rydwanu Afrodyty",
+            "poprawna odp":"Gołębie"
+        },
+        {
+            "nr":100,
+            "kategoria":"Geografia",
+            "tresc":"Na jakim Oceanie leży wyspa Taiwan",
+            "poprawna odp":"Ocean Spokojny, Pacyfik"
+        },
+        {
+            "nr":101,
+            "kategoria":"Prawo",
+            "tresc":"Czy obywatel Polski może utracić obywatelstwo na podstawie wyroku sądu.",
+            "poprawna odp":"Nie"
+        },
+        {
+            "nr":102,
+            "kategoria":"Literatura",
+            "tresc":"Po co schylał się Jasiek w Weselu Wyspiańskiego, kiedy zgubił złoty róg.",
+            "poprawna odp":"Czapka"
+        },
+        {
+            "nr":103,
+            "kategoria":"anime",
+            "tresc":"Jaki  film anime jest źródłem popularnego ślizgu bokiem na motorze",
+            "poprawna odp":"Akira"
+        },
+        {
+            "nr":104,
+            "kategoria":"Geografia",
+            "tresc":"Jak nazywa się stolica Iranu",
+            "poprawna odp":"Teheran"
+        },
+        {
+            "nr":105,
+            "kategoria":"geografia",
+            "tresc":"Jaka jest stolica Australii",
+            "poprawna odp":"Canberra"
+        },
+        {
+            "nr":106,
+            "kategoria":"Waluty",
+            "tresc":"Jaka waluta używana jest na Węgrzech",
+            "poprawna odp":"Forint"
+        },
+        {
+            "nr":107,
+            "kategoria":"geografia",
+            "tresc":"Jaka jest stolica Kanady",
+            "poprawna odp":"Ottawa"
+        },
+        {
+            "nr":108,
+            "kategoria":"Gotowanie",
+            "tresc":"Jak nazywa się główny składnik musztardy",
+            "poprawna odp":"Gorczyca"
+        },
+        {
+            "nr":109,
+            "kategoria":"Literatura",
+            "tresc":"Wszystkie zwierzęta są równe, ale niektóre są równiejsze. W jakiej książce autorstwa Orwella znajduje się ten cytat",
+            "poprawna odp":"Folwark Zwierzęcy"
+        },
+        {
+            "nr":110,
+            "kategoria":"Nauka",
+            "tresc":"Jaką dziedziną nauki zajmował się Euklidez",
+            "poprawna odp":"Matematyka"
+        },
+        {
+            "nr":111,
+            "kategoria":"Karty",
+            "tresc":"Jak w pokerze nazywa się ustawienie kart, w którym wartości kart idą po kolei.",
+            "poprawna odp":"Straight"
+        },
+        {
+            "nr":112,
+            "kategoria":"Karty",
+            "tresc":"Co należy powiedzieć w makao, gdy ma się jedną kartę w ręcę.",
+            "poprawna odp":"makao"
+        },
+        {
+            "nr":113,
+            "kategoria":"Matematyka",
+            "tresc":"Ile wynosi pole powierzchni sześcianu, a długości krawędzi a",
+            "poprawna odp":"6a^2"
+        },
+        {
+            "nr":114,
+            "kategoria":"Gwary",
+            "tresc":"Jak w gwarze śląskiej mówi się na kosz na śmieci",
+            "poprawna odp":"hasiok"
+        },
+        {
+            "nr":115,
+            "kategoria":"Żegluga",
+            "tresc":"Jak nazywa się wiatr wiejący od strony jednej z burt",
+            "poprawna odp":"Półwiatr"
+        },
+        {
+            "nr":116,
+            "kategoria":"Chemia",
+            "tresc":"Wzór CH4 jest wzorem jakiego związku",
+            "poprawna odp":"Metan"
+        },
+        {
+            "nr":117,
+            "kategoria":"Żywność",
+            "tresc":"Jak nazywa się firma odpowiadająca za praliny raffaello",
+            "poprawna odp":"Rocher"
+        },
+        {
+            "nr":118,
+            "kategoria":"Literatura",
+            "tresc":"Kto jest autorem postaci Herkulesa Poirot",
+            "poprawna odp":"Agatha Christie"
+        },
+        {
+            "nr":119,
+            "kategoria":"Firmy",
+            "tresc":"Z jakiego kraju pochodzi słynna firma produkująca klocki - LEGO",
+            "poprawna odp":"Dania"
+        },
+        {
+            "nr":120,
+            "kategoria":"Zwyczaje",
+            "tresc":"Z jakiego kraju pochodzi zwyczaj strojenia choinki na święta",
+            "poprawna odp":"Niemcy"
+        },
+        {
+            "nr":121,
+            "kategoria":"religia",
+            "tresc":"W jakim mieście Jezus zamienił wodę w wino",
+            "poprawna odp":"Kana Galilejska, Kana"
+        },
+        {
+            "nr":122,
+            "kategoria":"Ołówki",
+            "tresc":"Z czego wykonany jest pręcik wewnątrz ołówka",
+            "poprawna odp":"grafit"
+        },
+        {
+            "nr":123,
+            "kategoria":"Obrazkowe",
+            "tresc":"Co tego pana najbardziej denerwuje (obrazek hemoglobina.png)",
+            "poprawna odp":"Woda najczęściej, ziemia, halucynacja, hemoglobina, dwutlenek węgla, taka sytuacja nie"
+        },
+        {
+            "nr":124,
+            "kategoria":"Obrazkowe",
+            "tresc":"Z jakiego przedmiotu ten uczeń otrzymał jedynkę (zgerypała.png)",
+            "poprawna odp":"Geografia, Matematyka"
+        },
+        {
+            "nr":125,
+            "kategoria":"Konkursy",
+            "tresc":"Kto w roku 1974 wygrał Eurowizję",
+            "poprawna odp":"ABBA"
+        },
+        {
+            "nr":126,
+            "kategoria":"Filmy i seriale",
+            "tresc":"Kto jest autorem takich seriali jak Kapitan Bomba, Egzorcysta, czy Blok Ekipa",
+            "poprawna odp":"Walaszek, Grubas Walaszek"
+        },
+        {
+            "nr":127,
+            "kategoria":"Gotowanie",
+            "tresc":"Jak nazywa się smażona potrawa składająca się ze słonego nadzienia zawiniętego w naleśnik, podawana często do barszczu",
+            "poprawna odp":"Krokiet"
+        },
+        {
+            "nr":128,
+            "kategoria":"Filmy i seriale",
+            "tresc":"Jak nazywa się prowadzący Jeden z Dziesięciu",
+            "poprawna odp":"Tadeusz Sznuk"
+        },
+        {
+            "nr":129,
+            "kategoria":"Filmy i seriale",
+            "tresc":"Czy program Jeden z Dziesięciu dalej jest emitowany",
+            "poprawna odp":"tak"
+        },
+        {
+            "nr":130,
+            "kategoria":"Filmy i seriale",
+            "tresc":"Jak na imię ma asystentka prowadzącego w Jeden z Dziesięciu",
+            "poprawna odp":"Sylwia"
+        },
+        {
+            "nr":131,
+            "kategoria":"Informatyka",
+            "tresc":"Na jakim porcie działa protokół http",
+            "poprawna odp":"80"
+        },
+        {
+            "nr":132,
+            "kategoria":"Informatyka",
+            "tresc":"Na jakim porcie działa protokół ssh",
+            "poprawna odp":"22"
+        },
+        {
+            "nr":133,
+            "kategoria":"Gry",
+            "tresc":"Ile liter można podać w pojedynczym słowie w grze Wordle",
+            "poprawna odp":"5"
+        },
+        {
+            "nr":134,
+            "kategoria":"Gry",
+            "tresc":"Ile elementów mają kategorie w grze Connections",
+            "poprawna odp":"4"
+        },
+        {
+            "nr":135,
+            "kategoria":"Gotowanie",
+            "tresc":"Jak nazywa się sos robiony z pomidorów",
+            "poprawna odp":"Ketchup, keczup"
+        },
+        {
+            "nr":136,
+            "kategoria":"Chemia",
+            "tresc":"Jakim związkiem gazowana jest woda gazowana",
+            "poprawna odp":"Dwutlenek węgla"
+        },
+        {
+            "nr":137,
+            "kategoria":"Bankowość",
+            "tresc":"Przedstawiciel jakiego banku był pomysłodawcą systemu płatności BLIK",
+            "poprawna odp":"PKO Bank Polski"
+        },
+        {
+            "nr":138,
+            "kategoria":"Filmy i seriale",
+            "tresc":"W jakim filmie (western) użyty został utwór Enniego Morricone pod tytułem 'Ecstasy of gold'",
+            "poprawna odp":"Dobry, zły i brzydki"
+        },
+        {
+            "nr":139,
+            "kategoria":"Filmy i seriale",
+            "tresc":"Protagonistą jakiego filmu jest rycerz Antonius Block",
+            "poprawna odp":"7 pieczęć"
+        },
+        {
+            "nr":142,
+            "kategoria":"popkultura",
+            "tresc":"Jakiego koloru są genitalia Elphaby z książki Wicked na bazie której powstał musical i film",
+            "poprawna odp":"Fioletowego"
+        },
+        {
+            "nr":143,
+            "kategoria":"popkultura",
+            "tresc":"Kto wymyślił gatunek 'Gay pop'?",
+            "poprawna odp":"Jojo Siwa"
+        },
+        {
+            "nr":144,
+            "kategoria":"popkultura",
+            "tresc":"Jaka łysa lesbijka jest zżyta z arianą grande",
+            "poprawna odp":"cynthia erivo"
+        },
+        {
+            "nr":145,
+            "kategoria":"Filmy i seriale ",
+            "tresc":"W jakim świecie dzieją się kiepskie sprawy, marne życie i zabawy",
+            "poprawna odp":"W kiepskim świecie"
+        },
+        {
+            "nr":146,
+            "kategoria":"Obrazkowe",
+            "tresc":"Co ten człowiek będzie robił w Sylwestra( tombrider.png)",
+            "poprawna odp":"Będzie grał w gre"
         }
     ]
 }
